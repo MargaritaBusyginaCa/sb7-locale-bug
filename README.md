@@ -5,20 +5,11 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Run storybook
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run storybook
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
