@@ -12,7 +12,7 @@ const preview = {
     },
   },
 };
-const i18n = createI18n({
+const i18n = {
   legacy: false,
   locale: "en",
   globalInjection: true,
@@ -36,8 +36,10 @@ const i18n = createI18n({
       },
     },
   },
-});
+};
+//console.log("i18n :", i18n);
 setup((app) => {
-  app.use(i18n);
+  console.log("app", app);
+  app.use( createI18n(i18n));
 });
 export default preview;
